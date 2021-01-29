@@ -1,4 +1,6 @@
 - hosts: localhost
+  collections:
+    - dleroux.hello
 
   roles:
     - hello_world
