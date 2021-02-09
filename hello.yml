@@ -1,0 +1,11 @@
+- hosts: localhost
+  collections:
+    - dleroux.bonjour
+
+  roles:
+    - hello_world
+
+  tasks:
+  - name: run my version of hello_world role
+    include_role:
+      name: hello_world
