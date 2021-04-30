@@ -1,6 +1,6 @@
 - hosts: localhost
   collections:
-    - dleroux.bonjour
+    - daleroux.hello_tam_blog
 
   roles:
     - hello_world
