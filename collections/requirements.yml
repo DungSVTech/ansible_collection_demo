@@ -1,2 +1,7 @@
+---
 collections:
-    - name: ericsysmin.system
+  # Install a collection from Ansible Galaxy.
+  - name:  ericsysmin.system
+    version: 1.0.0
+    source: https://10.1.21.22/api/galaxy/content/community/
+
