@@ -1,4 +1,4 @@
-- hosts: client82.svtech.satellite
+- hosts: test-client
   roles:
     - role: ericsysmin.system.chrony
       chrony_config_server:
